@@ -68,50 +68,51 @@ c.	Use Case Diagram:
 
 d.	Activity Diagram:
 
-[Gambar Activity Diagram]
+![Screenshot 2023-11-08 162803](https://github.com/zidanperdana/RPL/assets/116040175/14a0d96c-363a-49d1-a916-eb0cb4cf354c)
 
 Berikut adalah diagram aktivitas yang disederhanakan untuk proyek RPL (Rancangan Program Layanan) sistem manajemen perpustakaan:
 
 1.	Mulai: Proses dimulai saat sistem diinisiasi
-2.	Autentikasi Pengguna:
-•	Pengguna login atau diotentikasi.
-•	Jika autentikasi gagal, sistem kembali ke halaman login.
-3.	Menu Utama:
-•	Setelah autentikasi berhasil, pengguna disajikan dengan opsi menu utama.
-4.	Operasi Perpustakaan:
-Pengguna dapat melakukan berbagai operasi perpustakaan seperti:
-•	Cari buku.
-•	Pinjam buku.
-•	Kembalikan buku.
-•	Pesan buku.
-•	Perpanjang pinjaman buku.
-•	Bayar denda.
-•	Lihat informasi akun.
-•	Keluar.
-5.	Cari Buku:
-•	Pengguna dapat mencari buku berdasarkan judul, penulis, atau ISBN.
-•	Sistem mengambil dan menampilkan hasil pencarian.
-6.	Pinjam Buku:
-•	Pengguna memilih satu atau lebih buku untuk dipinjam.
-•	Sistem memeriksa ketersediaan buku yang dipilih.
-•	Jika buku tersedia, buku tersebut ditandai sebagai dipinjam, dan tanggal jatuh tempo diatur.
-7.	Kembalikan Buku:
-•	Pengguna mengembalikan buku ke perpustakaan.
-•	Sistem memperbarui status buku yang dikembalikan dan menghitung denda jika ada.
-8.	Pesan Buku:
-•	Pengguna dapat memesan buku yang saat ini sedang dipinjam oleh orang lain.
-•	Sistem menambahkan pengguna ke daftar tunggu untuk buku yang diminta.
-9.	Perpanjang Buku:
-•	Pengguna dapat memperpanjang buku yang dipinjam.
-•	Sistem memperpanjang tanggal jatuh tempo jika buku dapat diperpanjang.
-10.	Bayar Denda:
-•	Pengguna dapat membayar denda atau biaya yang belum dibayar.
-•	Sistem mencatat pembayaran dan memperbarui akun pengguna.
-11.	Lihat Informasi Akun:
-•	Pengguna dapat memeriksa detail akun mereka, termasuk buku yang dipinjam, pemesanan, dan denda.
-12.	Keluar:
-•	Pengguna keluar dari sistem.
+2.	Autentikasi Pengguna:<br>
+•	Pengguna login atau diotentikasi.<br>
+•	Jika autentikasi gagal, sistem kembali ke halaman login.<br>
+3.	Menu Utama:<br>
+•	Setelah autentikasi berhasil, pengguna disajikan dengan opsi menu utama.<br>
+4.	Operasi Perpustakaan:<br>
+Pengguna dapat melakukan berbagai operasi perpustakaan seperti:<br>
+•	Cari buku.<br>
+•	Pinjam buku.<br>
+•	Kembalikan buku.<br>
+•	Pesan buku.<br>
+•	Perpanjang pinjaman buku.<br>
+•	Bayar denda.<br>
+•	Lihat informasi akun.<br>
+•	Keluar.<br>
+5.	Cari Buku:<br>
+•	Pengguna dapat mencari buku berdasarkan judul, penulis, atau ISBN.<br>
+•	Sistem mengambil dan menampilkan hasil pencarian.<br>
+6.	Pinjam Buku:<br>
+•	Pengguna memilih satu atau lebih buku untuk dipinjam.<br>
+•	Sistem memeriksa ketersediaan buku yang dipilih.<br>
+•	Jika buku tersedia, buku tersebut ditandai sebagai dipinjam, dan tanggal jatuh tempo diatur.<br>
+7.	Kembalikan Buku:<br>
+•	Pengguna mengembalikan buku ke perpustakaan.<br>
+•	Sistem memperbarui status buku yang dikembalikan dan menghitung denda jika ada.<br>
+8.	Pesan Buku:<br>
+•	Pengguna dapat memesan buku yang saat ini sedang dipinjam oleh orang lain.<br>
+•	Sistem menambahkan pengguna ke daftar tunggu untuk buku yang diminta.<br>
+9.	Perpanjang Buku:<br>
+•	Pengguna dapat memperpanjang buku yang dipinjam.<br>
+•	Sistem memperpanjang tanggal jatuh tempo jika buku dapat diperpanjang.<br>
+10.	Bayar Denda:<br>
+•	Pengguna dapat membayar denda atau biaya yang belum dibayar.<br>
+•	Sistem mencatat pembayaran dan memperbarui akun pengguna.<br>
+11.	Lihat Informasi Akun:<br>
+•	Pengguna dapat memeriksa detail akun mereka, termasuk buku yang dipinjam, pemesanan, dan denda.<br>
+12.	Keluar:<br>
+•	Pengguna keluar dari sistem.<br>
 13.	Selesai: Proses berakhir.
+
 Diagram aktivitas ini memberikan gambaran tingkat tinggi tentang interaksi dan aktivitas yang terlibat dalam sistem manajemen perpustakaan. Anda dapat lebih merinci dan memperluas diagram ini untuk mencakup lebih banyak detail, seperti proses khusus dan aliran data antara komponen berbeda dalam sistem. Selain itu, Anda mungkin ingin mempertimbangkan pengecualian dan penanganan kesalahan dalam sistem untuk memastikan operasi yang lancar.
 
 e.	Sequence Diagram:
@@ -124,7 +125,7 @@ Menunjukkan urutan interaksi antara anggota perpustakaan, sistem, dan administra
 
 a.	Class Diagram:
 
-[Gambar Class Diagram]
+![Screenshot 2023-11-08 165429](https://github.com/zidanperdana/RPL/assets/116040175/8a8387ea-9fdc-4154-89cd-b788ac7f8dd1)
 
 Kelas:
 
